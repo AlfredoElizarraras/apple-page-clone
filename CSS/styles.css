@@ -1,56 +1,66 @@
 /* #region: general */
+
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
 main {
-  height: 100vh;
-  width: 100vw;
+    background-image: url('https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    background-size: cover;
+    height: 93vh;
+    width: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
 }
 
-nav {
-  /* margin: 10vh 15vh; */
-  border-start-end-radius: 5%;
-  margin-top: 6%;
-}
 /* #endregion: general */
 
 /* #region: main */
-.nav-button {
-  color: white;
-  padding: 10px;
-  background: linear-gradient(#666666 50%,#8f8f8f 50%);
-  height: 36px;
-  width: 132px;
-  text-align: center;
-  border-right: 1px solid #000;
+
+.nav-bar-items-container {
+    display: flex;
+    padding-top: 10.5%;
 }
 
-.other-articles {
-  float: left;
+.nav-item {
+    display: flex;
+    align-items: center;
+    border-left: 0.5px #000 solid;
+    padding: 6px 36px;
+    color: white;
+    background: linear-gradient(gray 2%, #585858 49%, gray 49%);
 }
 
-#nav-buttons-container {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  align-self: center;
+#search-bar {
+    border-radius: 10px;
+    background: linear-gradient( #585858 50%, gray 50%);
+    width: 111px;
+    padding: 0 20px;
+    height: 25px;
 }
 
-#main-image {
-  background-image: url('https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position: top;
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  height: 90vh;
-  clear: both;
+#search-bar:focus {
+    width: 70%;
+    background-color: white;
 }
 
-#search-button {
-    border-radius: 5%;
+#search-bar-icon {
+    position: relative;
+    left: 25px;
+    top: 2px;
+    height: 8px;
 }
+
 /* #endregion: main */
