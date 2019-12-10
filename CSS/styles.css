@@ -11,56 +11,178 @@ body {
 }
 
 main {
-    background-image: url('https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg');
-    background-repeat: no-repeat;
-    background-position: 50% 100%;
+    display: flex;
+    flex-direction: column;
+    background: url('https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg') 50% 100% no-repeat;
     background-size: cover;
     height: 93vh;
-    width: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+}
+
+nav {
     display: flex;
     justify-content: center;
+    align-content: center;
+    padding-top: 12.5%;
 }
 
 /* #endregion: general */
 
 /* #region: main */
 
+/* #region: navbar */
+
 .nav-bar-items-container {
     display: flex;
-    padding-top: 10.5%;
+    justify-self: center;
+    width:80%;
+    height: 29px;
 }
 
 .nav-item {
-    display: flex;
-    align-items: center;
+    flex: 1;
+}
+
+.nav-item>a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
     border-left: 0.5px #000 solid;
-    padding: 6px 36px;
-    color: white;
-    background: linear-gradient(gray 2%, #585858 49%, gray 49%);
 }
 
-#search-bar {
-    border-radius: 10px;
+.item-1 {
+    background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') center top  no-repeat, linear-gradient( #585858 50%, gray 50%);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.item-1:hover {
+    background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') center top no-repeat, url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav.png') 100% 50% no-repeat;
+}
+
+.item-2 {
+    background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') center 15% no-repeat, linear-gradient( #585858 50%, gray 50%);
+}
+
+.item-2:hover {
+    background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') center 15% no-repeat, url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav.png') 100% 50% no-repeat;
+}
+
+.item-3 {
+    background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') center 29% no-repeat, linear-gradient( #585858 50%, gray 50%);
+}
+
+.item-3:hover {
+    background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') center 29% no-repeat, url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav.png') 100% 50% no-repeat;
+}
+
+.item-4 {
+    background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') center 43% no-repeat, linear-gradient( #585858 50%, gray 50%);
+}
+
+.item-4:hover {
+    background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') center 43% no-repeat, url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav.png') 100% 50% no-repeat;
+}
+
+.item-5 {
+    background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') center 57% no-repeat, linear-gradient( #585858 50%, gray 50%);
+}
+
+.item-5:hover {
+    background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') center 57% no-repeat, url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav.png') 100% 50% no-repeat;
+}
+
+.item-6 {
+    background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') center 71% no-repeat, linear-gradient( #585858 50%, gray 50%);
+}
+
+.item-6:hover {
+    background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') center 71% no-repeat, url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav.png') 100% 50% no-repeat;
+}
+
+.item-7 {
+    background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') center 85.5% no-repeat, linear-gradient( #585858 50%, gray 50%);
+}
+
+.item-7:hover {
+    background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') center 85.5% no-repeat, url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav.png') 100% 50% no-repeat;
+}
+
+.item-8 {
+    background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') center 99.5% no-repeat, linear-gradient( #585858 50%, gray 50%);
+}
+
+.item-8:hover {
+    background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') center 99.5% no-repeat, url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav.png') 100% 50% no-repeat;
+}
+
+.search-bar {
+    padding-left: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     background: linear-gradient( #585858 50%, gray 50%);
-    width: 111px;
-    padding: 0 20px;
-    height: 25px;
+    border-left: 0.5px #000 solid;
 }
 
-#search-bar:focus {
-    width: 70%;
-    background-color: white;
+.item-9 {
+    width: 128px;
+    margin-top: 3px;
+    border-radius: 50px;
+    padding-left: 20px;
+    background: linear-gradient( #585858 50%, gray 50%);
 }
 
-#search-bar-icon {
+.search-bar:focus-within {
+    animation-name: search-bar-change;
+    animation-duration: 1s;
+    animation-delay: 10ms;
+    flex: 2;
+}
+
+.item-9:focus {
+    background: white;
+    animation-name: search-input-change;
+    animation-duration: 1s;
+    animation-delay: 10ms;
+    width: 224px;
+}
+
+.search-icon {
     position: relative;
-    left: 25px;
-    top: 2px;
-    height: 8px;
+    left: 5px;
+    top: -18px;
+    color: white;
 }
+
+.search-bar:focus-within .search-icon {
+    color: #000;
+}
+/* #endregion: navbar */
+
+/* #region: Other articles */
+
+
+
+/* #endregion: Other articles */
 
 /* #endregion: main */
+
+/* #region: animations */
+
+@keyframes search-bar-change {
+    from {
+        flex: 1;
+    }
+    to {
+        float: 2;
+    }
+}
+
+@keyframes search-input-change {
+    from {
+        width: 128px;
+    }
+    to {
+        width: 224px;
+    }
+}
+/* #endregion: animations */
