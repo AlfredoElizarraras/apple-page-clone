@@ -36,7 +36,7 @@ nav {
 .nav-bar-items-container {
     display: flex;
     justify-self: center;
-    width:80%;
+    width: 80%;
     height: 35px;
 }
 
@@ -52,7 +52,7 @@ nav {
 }
 
 .item-1 {
-    background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') center -1%  no-repeat, linear-gradient( #585858 50%, gray 50%);
+    background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') center -1% no-repeat, linear-gradient( #585858 50%, gray 50%);
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
@@ -78,19 +78,19 @@ nav {
 }
 
 .item-4 {
-    background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') center 43.5% no-repeat, linear-gradient( #585858 50%, gray 50%);
+    background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') center 42.5% no-repeat, linear-gradient( #585858 50%, gray 50%);
 }
 
 .item-4:hover {
-    background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') center 43.5% no-repeat, url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav.png') 100% 50% no-repeat;
+    background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') center 42.5% no-repeat, url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav.png') 100% 50% no-repeat;
 }
 
 .item-5 {
-    background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') center 57.7% no-repeat, linear-gradient( #585858 50%, gray 50%);
+    background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') center 57.3% no-repeat, linear-gradient( #585858 50%, gray 50%);
 }
 
 .item-5:hover {
-    background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') center 57.7% no-repeat, url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav.png') 100% 50% no-repeat;
+    background: url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.png') center 57.3% no-repeat, url('https://web.archive.org/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav.png') 100% 50% no-repeat;
 }
 
 .item-6 {
@@ -158,6 +158,7 @@ nav {
 .search-bar:focus-within .search-icon {
     color: #000;
 }
+
 /* #endregion: navbar */
 
 /* #region: main */
@@ -182,6 +183,7 @@ nav {
     background: url('https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/cta_your_verse_27pt.png') center bottom no-repeat;
     cursor: pointer;
 }
+
 /* #endregion: Titles text */
 
 /* #endregion: main */
@@ -190,14 +192,14 @@ nav {
 
 .other-articles-container {
     position: absolute;
-    bottom: -24.7vh;
+    bottom: -28.5vh;
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
-.other-article-item img{
-    width: 374px;
+.other-article-item img {
+    max-width: 330px;
 }
 
 /* #endregion: Other articles */
@@ -206,16 +208,65 @@ nav {
 
 .footer-links-container {
     display: flex;
+    justify-content: center;
     position: absolute;
-    bottom: -40vh;
+    bottom: -45vh;
     height: 90px;
     width: 100%;
-    padding-top: 25px;
+    padding-top: 10px;
+    line-height: 1.2rem;
+    color: #6e6e6e;
 }
 
 .footer-links-item-container {
-    flex: 1;
     font-size: 0.685rem;
+    width: 980px;
+    height: 90px;
+}
+
+.footer-left-info {
+    float: left;
+}
+
+.list-of-links-container {
+    float: right;
+    padding-bottom: 10px;
+    margin-top: -3px;
+}
+
+.list-of-links {
+    list-style-type: none;
+    height: 19.2px;
+    width: 100%;
+}
+
+.list-of-links li {
+    display: inline;
+    border-left: 1px solid #ccc;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 3px;
+}
+
+.list-of-links .list-of-links-item-1 {
+    border: none;
+}
+
+.world-wide {
+    position: relative;
+    top: 5px;
+}
+
+.footer-copy-right-info {
+    clear: right;
+}
+
+.footer-left-info a, .list-of-links li a, .footer-copy-right-info a {
+    text-decoration: none;
+}
+
+.footer-left-info a:hover, .list-of-links li a:hover, .footer-copy-right-info a:hover {
+    text-decoration: underline;
 }
 
 /* #endregion Footer */
@@ -227,7 +278,7 @@ nav {
         flex: 1;
     }
     to {
-        float: 2;
+        flex: 2;
     }
 }
 
@@ -239,4 +290,5 @@ nav {
         width: 224px;
     }
 }
+
 /* #endregion: animations */
