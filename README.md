@@ -1,8 +1,11 @@
+
 ---
 
 # Apple Page Clone
 
 > This project is completed by Oscar Alfredo Gómez Elizarrarás, in partial requirements of the Microverse cirriculum. 
+
+![Screenshot - 1920 x 1080 ](/public/screenshot.jpg?raw=true "Screenshot")
 
 ---
 
@@ -29,7 +32,7 @@
 
 ### Install
 
-`git clone`
+`git clone https://github.com/AlfredoElizarraras/apple-page-clone.git`
 
 `npm install`
 
@@ -39,9 +42,9 @@
 
 👤 **Oscar Alfredo Gómez Elizarrarás**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
+- Github: [@AlfredoElizarraras](https://github.com/AlfredoElizarraras)
 - Twitter: [@OscarAlfredoGm4](https://twitter.com/OscarAlfredoGm4)
-- Linkedin: [linkedin](https://www.linkedin.com/mx/oscar-alfredo-gomez-elizarraras-999589186/)
+- Linkedin: [@OscarAlfredoGómezElizarrarás](https://mx.linkedin.com/in/oscar-alfredo-gomez-elizarraras-999589186)
 
 ---
 
@@ -49,7 +52,7 @@
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/AlfredoElizarraras/apple-page-clone/issues).
 
 ## Show your support
 
