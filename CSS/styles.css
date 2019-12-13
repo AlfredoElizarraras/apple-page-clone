@@ -125,7 +125,7 @@ nav {
 
 .item-9 {
   width: 128px;
-  margin-top: 8px;
+  margin-top: 0.6em;
   border-radius: 50px;
   padding-left: 20px;
   background: linear-gradient(#585858 50%, gray 50%);
@@ -148,8 +148,8 @@ nav {
 
 .search-icon {
   position: relative;
-  left: 5px;
-  top: -1.2em;
+  left: 0.5em;
+  top: -1.3em;
   color: white;
   font-size: 0.885rem;
 }
