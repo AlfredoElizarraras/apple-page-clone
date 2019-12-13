@@ -149,8 +149,9 @@ nav {
 .search-icon {
   position: relative;
   left: 5px;
-  top: -18px;
+  top: -1.2em;
   color: white;
+  font-size: 0.885rem;
 }
 
 .search-bar:focus-within .search-icon {
