@@ -11,7 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.27.10",
     "run-script-os": "^1.0.3",
     "stylelint": "^12.0.0",
     "stylelint-config-recommended": "^3.0.0"
